@@ -1,36 +1,58 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-
-Console.WriteLine("Напишите пять слов после каждого жмите Ентер_ ");
-string[] massiv = new string[6];
+﻿//Задача: Написать программу, которая из имеющегося массива строк
+//формирует новый массив из строк, длина которых меньше, либо равна 3 символам.
+//Первоначальный массив можно ввести с клавиатуры, либо задать на старте выполнения алгоритма.
+// При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
+Console.WriteLine("Напишите пять слов после каждого жмите Ентер_ "); // 
+string[] array = CreateArray(6);
 int count = 0;
-int index=0;
-string myword=string.Empty;
-for (int i = 0; i < massiv.Length; i++)
-{
-    massiv[i] = Console.ReadLine()!;
+int index = 0;
+string myword = string.Empty;
 
-}
+
 Console.WriteLine("_____________________________________________ ");
 Console.WriteLine("your short words what have max 3 simbols: ");
-for (int i = 0; i < massiv.Length; i++)
+
+int LenNewArray = СalculateShortWords(array);
+string[] newArray = new string[LenNewArray];
+
+for (int i = 0; i < array.Length; i++)
 {
-    myword= massiv[i];
-    if (myword.Length <= 3)
+    if (array[i].Length <= 3)
     {
-        count++;
+        newArray[index] = array[i];
+        index++;
     }
 }
-string[] shortmassiv = new string[count];
-for (int i = 0; i < massiv.Length; i++)
+
+string[] CreateArray(int length)
 {
-    if (massiv[i].Length <= 3)
+    string[] massiv = new string[length];
+    for (int i = 0; i < massiv.Length; i++)
     {
-    shortmassiv[index] = massiv[i];
-    index++;
+        massiv[i] = Console.ReadLine()!;
     }
+    return massiv;
 }
-for (int i = 0; i < count; i++)
+
+int СalculateShortWords(string[] array)
 {
-  Console.WriteLine($"{shortmassiv[i]}");  
+    for (int i = 0; i < array.Length; i++)
+    {
+        myword = array[i];
+        if (myword.Length <= 3)
+        {
+            count++;
+        }
+    }
+    return count;
 }
+
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+        Console.WriteLine($"{array[i]}");
+}
+
+
+
+PrintArray(newArray);
