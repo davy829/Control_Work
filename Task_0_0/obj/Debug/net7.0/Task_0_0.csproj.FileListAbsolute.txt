@@ -1,0 +1,15 @@
+H:\ControlWork\Control_Work\Task_0_0\bin\Debug\net7.0\Task_0_0.exe
+H:\ControlWork\Control_Work\Task_0_0\bin\Debug\net7.0\Task_0_0.deps.json
+H:\ControlWork\Control_Work\Task_0_0\bin\Debug\net7.0\Task_0_0.runtimeconfig.json
+H:\ControlWork\Control_Work\Task_0_0\bin\Debug\net7.0\Task_0_0.dll
+H:\ControlWork\Control_Work\Task_0_0\bin\Debug\net7.0\Task_0_0.pdb
+H:\ControlWork\Control_Work\Task_0_0\obj\Debug\net7.0\Task_0_0.csproj.AssemblyReference.cache
+H:\ControlWork\Control_Work\Task_0_0\obj\Debug\net7.0\Task_0_0.GeneratedMSBuildEditorConfig.editorconfig
+H:\ControlWork\Control_Work\Task_0_0\obj\Debug\net7.0\Task_0_0.AssemblyInfoInputs.cache
+H:\ControlWork\Control_Work\Task_0_0\obj\Debug\net7.0\Task_0_0.AssemblyInfo.cs
+H:\ControlWork\Control_Work\Task_0_0\obj\Debug\net7.0\Task_0_0.csproj.CoreCompileInputs.cache
+H:\ControlWork\Control_Work\Task_0_0\obj\Debug\net7.0\Task_0_0.dll
+H:\ControlWork\Control_Work\Task_0_0\obj\Debug\net7.0\refint\Task_0_0.dll
+H:\ControlWork\Control_Work\Task_0_0\obj\Debug\net7.0\Task_0_0.pdb
+H:\ControlWork\Control_Work\Task_0_0\obj\Debug\net7.0\Task_0_0.genruntimeconfig.cache
+H:\ControlWork\Control_Work\Task_0_0\obj\Debug\net7.0\ref\Task_0_0.dll
